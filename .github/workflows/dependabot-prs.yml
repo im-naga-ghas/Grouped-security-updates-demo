@@ -8,7 +8,7 @@ jobs:
     permissions:
       pull-requests: read
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'im-sandbox-phanirb-GHAS/Grouped-security-updates-demo'
+    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'im-naga-ghas/Grouped-security-updates-demo'
     steps:
     - name: Fetch Dependabot metadata
       id: dependabot-metadata
